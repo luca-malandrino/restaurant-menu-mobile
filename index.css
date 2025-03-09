@@ -1,0 +1,108 @@
+.container {
+  padding: 0 50px;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background: url('./images/header.png');
+  height: 115px;
+  background-size: cover;
+  margin-bottom: 45px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 10px 0;
+  font-family: Italiana, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3, p {
+  margin: 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 200px;
+}
+
+.emoji {
+  font-size: 40px;
+}
+
+.ingredients {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.add-button {
+  height: 40px;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  background: white;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.add-button:active {
+  background: #c4c4c4;
+}
+
+.price {
+  font-weight: bold;
+}
+
+footer {
+  display: none;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tfoot {
+  border-top: 1.5px solid black;
+  padding-top: 8px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+tbody {
+  padding-bottom: 10px;
+}
+
+tbody th {
+  font-weight: 400;
+}
+
+tbody button {
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+}
+
+.complete-btn {
+  margin-top: 40px;
+  padding: 10px 25px;
+  font-weight: bold;
+  border: none;
+  background: #00b700;
+  color: white;
+}
