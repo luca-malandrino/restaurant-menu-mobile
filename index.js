@@ -41,5 +41,7 @@ document.querySelector('main').addEventListener('click', e => {
 
     renderCheckout(orderedItems)
     document.querySelector('footer').style.display = 'block' 
+  } else if(e.target.textContent === 'remove') {
+    
   }
 })

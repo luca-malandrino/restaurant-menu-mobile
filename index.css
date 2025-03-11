@@ -106,3 +106,7 @@ tbody button {
   background: #00b700;
   color: white;
 }
+
+button:active {
+  opacity: .9;
+}
